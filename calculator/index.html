@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functional Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="top-bar">
+        <div class="title">calc</div>
+        <div class="theme-switcher">
+          THEME&nbsp;&nbsp;
+          <div
+            style="
+              background: #181f32;
+              border-radius: 10px;
+              width: 40px;
+              height: 20px;
+              margin-left: 0.5rem;
+              display: flex;
+              align-items: center;
+              padding: 2px;
+              position: relative;
+            "
+          >
+            <div
+              style="
+                background: red;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                cursor: pointer;
+              "
+              class="theme-btn"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="screen" class="screen">0</div>
+
+      <div class="buttons">
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn btn-del">DEL</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">+</button>
+
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">-</button>
+
+        <button class="btn">.</button>
+        <button class="btn">0</button>
+        <button class="btn">/</button>
+        <button class="btn">x</button>
+
+        <button class="btn btn-reset">RESET</button>
+        <button class="btn btn-equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>

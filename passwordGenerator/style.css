@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.pass-gen {
+  color: white;
+
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #394251, #2f766a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.click {
+  margin: 10px;
+}
+
+.generated-pass {
+  padding: 20px;
+  border-right: 1px solid white;
+  background-color: #e0d5d547;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.generate-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

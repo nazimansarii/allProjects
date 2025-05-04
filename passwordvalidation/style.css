@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, #2222, #cccc);
+}
+
+.heading {
+  text-align: center;
+  padding-top: 20px;
+}
+.input-container {
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.input-container input {
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid cadetblue;
+}
+.input-container button,
+.check-btn {
+  border-radius: 10px;
+  border: 1px solid cadetblue;
+  margin-left: 10px;
+  padding-inline: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.validate {
+  text-align: center;
+  margin-top: 3px;
+  color: red;
+}

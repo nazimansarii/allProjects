@@ -1,0 +1,87 @@
+body {
+  background-image: linear-gradient( to right, #4ba949, #0b5093);
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  width: 320px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.screen {
+  background-color: #181f32;
+  color: white;
+  text-align: right;
+  padding: 1.5rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  background-color: #252d44;
+  padding: 1rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #eae3dc;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  box-shadow: 0 4px #b4a597;
+  cursor: pointer;
+}
+
+.btn-del {
+  background-color: #647299;
+  color: white;
+}
+
+.btn-reset {
+  grid-column: span 2;
+  background-color: #647299;
+  color: white;
+}
+
+.btn-equal {
+  grid-column: span 2;
+  background-color: #d13f30;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.left-slide {
+  position: absolute;
+  left: 60%;
+}
+
+.dark {
+  background-image: linear-gradient(to right, #709686, #bc4ce8);
+}
