@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 400px;
+  max-height: 450px;
+  background-color: #313a49;
+  padding: 15px 40px;
+  border-radius: 10px;
+  color: hsl(193, 38%, 86%);
+  position: relative; /* Change to relative for positioning child elements */
+  margin: 20px;
+  padding-bottom: 50px;
+}
+
+.advice-hastag {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+}
+.advice-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.generate-btn {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Position relative to the .content container */
+  bottom: -20px; /* Adjust distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Offset to perfectly center */
+}
+
+.generate-btn:hover {
+  box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
